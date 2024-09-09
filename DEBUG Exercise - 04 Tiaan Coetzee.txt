@@ -11,14 +11,14 @@ start
    
    startUp()
    while mortgagePayment not equal to 0
-      mainLoop()   // Changed to match the function definition
+      mainLoop()
    endwhile
    finishUp()
 stop
 
 startUp()
    output "Enter your mortgage payment or 0 to quit"
-   input mortgagePayment   // Changed mtgPayment to mortgagePayment
+   input mortgagePayment
 return
 
 mainLoop()
